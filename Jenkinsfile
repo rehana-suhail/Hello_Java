@@ -1,3 +1,4 @@
+//This is the Jenkins file created from the pipeline syntax
 node ('maven-label') {
     def mvnHome
     stage('Preparation') { // for display purposes
