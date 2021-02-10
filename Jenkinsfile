@@ -14,6 +14,7 @@ node ('maven-label') {
         // Run the maven build
         withEnv(["MVN_HOME=$mvnHome"]) {
             if (isUnix()) {
+                //sonar added
                 sh '"$MVN_HOME/bin/mvn" -Dmaven.test.failure.ignore clean package sonar:sonar -Dsonar.host.url=http://ec2-65-0-139-122.ap-south-1.compute.amazonaws.com:9000'
             } else {
                 bat(/"%MVN_HOME%\bin\mvn" -Dmaven.test.failure.ignore clean package/)
