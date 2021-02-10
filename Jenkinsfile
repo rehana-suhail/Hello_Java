@@ -8,6 +8,7 @@ node ('maven-label') {
         // **       in the global configuration.
         mvnHome = tool 'maven-3.5.2'
         //latest maven tool
+        //hello
     }
     stage('Build') {
         // Run the maven build
