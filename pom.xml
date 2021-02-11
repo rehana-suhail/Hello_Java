@@ -15,16 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
+ <distributionManagement>
     <repository>
         <id>central</id>
         <name>ip-172-31-5-28-releases</name>
-        <url>http://ec2-15-207-116-93.ap-south-1.compute.amazonaws.com:8081/artifactory/maven-local</url>
+        <url>http://ec2-65-1-94-174.ap-south-1.compute.amazonaws.com:8081/artifactory/maven-local</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-5-28-snapshots</name>
-        <url>http://ec2-15-207-116-93.ap-south-1.compute.amazonaws.com:8081/artifactory/maven-local</url>
+        <url>http://ec2-65-1-94-174.ap-south-1.compute.amazonaws.com:8081/artifactory/maven-local</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
