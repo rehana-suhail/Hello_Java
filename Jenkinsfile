@@ -28,6 +28,6 @@ node ('maven-label') {
         archiveArtifacts 'target/*.jar'
         //slackSend channel: '#devops-training', teamDomain: 'devops-6wb2537', tokenCredentialId: '07a2a721-597a-47fe-b879-68ea6bf08ce0'
         //Slack has been added
-        slackSend channel: '#devops-training', message: 'Hello_Java Successfully Deployed', teamDomain: 'devops-6wb2537', tokenCredentialId: '07a2a721-597a-47fe-b879-68ea6bf08ce0', username: 'hussain.rehana@gmail.com'
+        //slackSend channel: '#devops-training', message: 'Hello_Java Successfully Deployed', teamDomain: 'devops-6wb2537', tokenCredentialId: '07a2a721-597a-47fe-b879-68ea6bf08ce0', username: 'hussain.rehana@gmail.com'
     }
 }
